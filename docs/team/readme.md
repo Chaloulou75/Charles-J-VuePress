@@ -12,8 +12,6 @@ Proident aute labore pariatur ipsum dolor deserunt cupidatat tempor consequat mi
 
 ## Jack
 
-I work usually alone
-
 Incididunt sit sint id exercitation ex consequat. Ex occaecat labore eiusmod anim consectetur enim fugiat laboris. Eiusmod sunt nulla occaecat pariatur fugiat. Amet ipsum eu ad velit laborum adipisicing aliquip officia tempor.
 
 Tempor culpa aliqua dolore nulla et non consectetur aliqua veniam. Ea aliquip duis sunt commodo. Mollit cillum aliquip adipisicing incididunt cillum aute. Consectetur non exercitation consequat voluptate. Non incididunt laborum cupidatat irure laboris quis. Non ex dolor ad ex excepteur duis veniam exercitation.

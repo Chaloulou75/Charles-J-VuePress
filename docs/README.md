@@ -1,54 +1,206 @@
 ---
 home: true
-heroImage: /img/psg.png
+# heroImage: /img/psg.jpg
 heroText: Charles Jeandey
-tagline: Developpeur Web PHP Laravel, mais pas que...
+tagline: Developpeur Web PHP Laravel
 actionText: Contact Me →
 actionLink: /contact/
 features:
 - title: Laravel
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Alpine Js | Livewire | VuePress & More!
+  details: Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
+- title: VueJS
+  details: Vue est un framework évolutif pour construire des interfaces utilisateur. À la différence des autres frameworks monolithiques, Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.
+- title: TailwindCSS
+  details: A utility-first CSS framework for rapidly building custom designs. Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+- title: Livewire
+  details: Livewire is a full-stack framework for Laravel that makes building dynamic interfaces simple, without leaving the comfort of Laravel.
+- title: AlpineJS
+  details: Alpine.js offers you the reactive and declarative nature of big frameworks like Vue or React at a much lower cost.
+- title: VuePress
   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+- title: Github
+  details: GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git.
 footer: Copyright © 2020 Charles Jeandey
 ---
 
-::: tip
-Ce site a été fait avec VuePress!
+::: details Bonjour!
+
+Ce site a été fait avec VuePress! :satisfied:
+
+``` php
+
+Route::get('home', function () {
+      return 'Bonjour à tous!';
+    });
+
+```
 :::
 
-Ea proident ea consequat consectetur commodo sunt est quis do laborum veniam aute tempor elit. Et pariatur et ea id. Irure officia aliquip esse mollit occaecat veniam duis. Ullamco occaecat pariatur exercitation aute deserunt irure pariatur incididunt magna commodo consectetur adipisicing anim minim. Eu cupidatat aliqua aliqua non laborum consequat dolor do sit anim enim elit sit exercitation. Laborum sit culpa dolore ipsum.
 
-In non anim ipsum reprehenderit ut laboris ut voluptate nulla anim esse excepteur. Voluptate ut et tempor esse do sint anim cupidatat ut velit do officia. Non consequat enim minim ullamco non sint sunt cupidatat ex eu tempor incididunt nulla.
+- Reconverti développeur Web depuis 4 ans. :rocket:
+- Je me suis formé (et continue) sur les plateformes Laracasts et Openclassrooms notamment, et particulièrement au framework PHP Laravel, qui est devenu mon outil préféré afin de mener à bien mes projets aussi bien personnels que professionnels.
 
-Nulla ipsum minim exercitation dolor qui. Exercitation laborum est ullamco dolor officia fugiat cupidatat excepteur sit adipisicing. Sint incididunt ipsum qui cillum nisi culpa deserunt elit culpa incididunt do. Tempor consequat ut adipisicing pariatur minim exercitation pariatur id duis ullamco anim.
+### :fire: Mes outils de développements préférés 
 
-Voluptate aliquip duis cillum mollit et magna cupidatat culpa magna qui do sunt veniam deserunt. Cillum dolore qui et do sit. Sint exercitation ex aliqua occaecat id aliquip adipisicing excepteur nisi.
+## Laravel Developer 
 
-# Laravel Developer 
+``` php
 
--Ullamco consequat eu nisi proident elit exercitation dolor officia et velit duis mollit. Exercitation consequat nulla amet ullamco sunt deserunt qui pariatur adipisicing. Sunt reprehenderit irure cupidatat esse elit laboris nostrud anim.
+return Destination::orderByDesc(
+    Flight::select('arrived_at')
+        ->whereColumn('destination_id', 'destinations.id')
+        ->orderBy('arrived_at', 'desc')
+        ->limit(1)
+)->get();
 
-Minim do in do fugiat do nisi laborum Lorem. Occaecat et quis consequat commodo cillum dolore veniam exercitation. Enim proident et incididunt voluptate nulla quis nulla voluptate magna culpa ut. Non qui ut exercitation nulla nostrud laborum. Duis ea proident ex quis dolor ullamco est in in elit duis ex laborum. Duis non dolor enim amet incididunt fugiat sint duis eiusmod nisi.
+```
 
-Ipsum officia ex non exercitation anim eiusmod est exercitation officia. Dolor dolor et et occaecat Lorem sit. Excepteur exercitation duis mollit nisi Lorem esse laboris tempor voluptate ex consequat. Dolore consectetur reprehenderit ad ex eu minim labore exercitation. Esse cupidatat aute veniam consectetur sint enim. Officia aute incididunt quis laboris labore officia. Proident officia laboris enim irure excepteur eiusmod fugiat occaecat irure tempor laborum.
+- Ullamco consequat eu nisi proident elit exercitation dolor officia et velit duis mollit. Exercitation consequat nulla amet ullamco sunt deserunt qui pariatur adipisicing. Sunt reprehenderit irure cupidatat esse elit laboris nostrud anim.
 
-# Vue Developer
+- Minim do in do fugiat do nisi laborum Lorem. Occaecat et quis consequat commodo cillum dolore veniam exercitation. Enim proident et incididunt voluptate nulla quis nulla voluptate magna culpa ut. Non qui ut exercitation nulla nostrud laborum. Duis ea proident ex quis dolor ullamco est in in elit duis ex laborum. Duis non dolor enim amet incididunt fugiat sint duis eiusmod nisi.
 
-Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+- Ipsum officia ex non exercitation anim eiusmod est exercitation officia. Dolor dolor et et occaecat Lorem sit. Excepteur exercitation duis mollit nisi Lorem esse laboris tempor voluptate ex consequat. Dolore consectetur reprehenderit ad ex eu minim labore exercitation. Esse cupidatat aute veniam consectetur sint enim. Officia aute incididunt quis laboris labore officia. Proident officia laboris enim irure excepteur eiusmod fugiat occaecat irure tempor laborum.
 
-Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
+## TailwindCSS 
 
-Culpa laborum et cillum proident in Lorem sunt aute mollit duis cupidatat eu cillum. Amet eiusmod ad ex exercitation esse ex laborum eu. Lorem anim officia ad ipsum velit eiusmod id. Duis do eiusmod ea sit cupidatat ad commodo occaecat. Sint consectetur ex qui sunt cillum dolor deserunt velit voluptate occaecat tempor est occaecat. Veniam sint ad et nulla exercitation consequat veniam dolor dolore laborum duis aliqua elit.
+``` html
 
-# Static Site Developer
+<div class="md:flex">
+  <div class="md:flex-shrink-0">
+    <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase">
+  </div>
+  <div class="mt-4 md:mt-0 md:ml-6">
+    <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">Something cool</div>
+    <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
+    <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+  </div>
+</div>
 
-Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+```
 
-Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
+- Ullamco consequat eu nisi proident elit exercitation dolor officia et velit duis mollit. Exercitation consequat nulla amet ullamco sunt deserunt qui pariatur adipisicing. Sunt reprehenderit irure cupidatat esse elit laboris nostrud anim.
 
-Culpa laborum et cillum proident in Lorem sunt aute mollit duis cupidatat eu cillum. Amet eiusmod ad ex exercitation esse ex laborum eu. Lorem anim officia ad ipsum velit eiusmod id. Duis do eiusmod ea sit cupidatat ad commodo occaecat. Sint consectetur ex qui sunt cillum dolor deserunt velit voluptate occaecat tempor est occaecat. Veniam sint ad et nulla exercitation consequat veniam dolor dolore laborum duis aliqua elit.
+- Minim do in do fugiat do nisi laborum Lorem. Occaecat et quis consequat commodo cillum dolore veniam exercitation. Enim proident et incididunt voluptate nulla quis nulla voluptate magna culpa ut. Non qui ut exercitation nulla nostrud laborum. Duis ea proident ex quis dolor ullamco est in in elit duis ex laborum. Duis non dolor enim amet incididunt fugiat sint duis eiusmod nisi.
 
 
+## VueJS
+
+``` js
+
+  Vue.component('todo-item', {
+    props: ['todo'],
+    template: '<li>{{ todo.text }}</li>'
+  })
+
+  var app7 = new Vue({
+    el: '#app-7',
+    data: {
+      groceryList: [
+        { id: 0, text: 'Légumes' },
+        { id: 1, text: 'Fromage' },
+        { id: 2, text: 'Tout ce que les humains sont supposés manger' }
+      ]
+    }
+  })
+
+```
+
+- Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+
+- Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
+
+- Culpa laborum et cillum proident in Lorem sunt aute mollit duis cupidatat eu cillum. Amet eiusmod ad ex exercitation esse ex laborum eu. Lorem anim officia ad ipsum velit eiusmod id. Duis do eiusmod ea sit cupidatat ad commodo occaecat. Sint consectetur ex qui sunt cillum dolor deserunt velit voluptate occaecat tempor est occaecat. Veniam sint ad et nulla exercitation consequat veniam dolor dolore laborum duis aliqua elit.
+
+
+## Livewire
+
+``` PHP
+
+use Livewire\Component;
+
+class SearchUsers extends Component
+{
+    public $search = '';
+
+    public function render()
+    {
+        return view('livewire.search-users', [
+            'users' => User::where('username', $this->search)->get(),
+        ]);
+    }
+}
+
+```
+
+- Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+
+- Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
+
+- Culpa laborum et cillum proident in Lorem sunt aute mollit duis cupidatat eu cillum. Amet eiusmod ad ex exercitation esse ex laborum eu. Lorem anim officia ad ipsum velit eiusmod id. Duis do eiusmod ea sit cupidatat ad commodo occaecat. Sint consectetur ex qui sunt cillum dolor deserunt velit voluptate occaecat tempor est occaecat. Veniam sint ad et nulla exercitation consequat veniam dolor dolore laborum duis aliqua elit.
+
+## Alpine JS
+
+``` html
+
+<div x-data="{ open: false }">
+    <button @click="open = true">Open Dropdown</button>
+
+    <ul
+        x-show="open"
+        @click.away="open = false"
+    >
+        Dropdown Body
+    </ul>
+</div>
+
+```
+
+- Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+
+- Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
+
+## Static Site Generator (VuePress, Jigsaw, Nuxt...) 
+
+``` yaml
+---
+home: true
+heroImage: /hero.png
+heroText: Hero Title
+tagline: Hero subtitle
+actionText: Get Started →
+actionLink: /guide/
+features:
+- title: Simplicity First
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: Vue-Powered
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Performant
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: MIT Licensed | Copyright © 2018-present Evan You
+---
+
+```
+
+- Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+
+- Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
+
+- Culpa laborum et cillum proident in Lorem sunt aute mollit duis cupidatat eu cillum. Amet eiusmod ad ex exercitation esse ex laborum eu. Lorem anim officia ad ipsum velit eiusmod id. Duis do eiusmod ea sit cupidatat ad commodo occaecat. Sint consectetur ex qui sunt cillum dolor deserunt velit voluptate occaecat tempor est occaecat. Veniam sint ad et nulla exercitation consequat veniam dolor dolore laborum duis aliqua elit.
+
+## Github
+
+``` sh
+
+git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+```
+
+- Incididunt exercitation et mollit tempor qui sint sint elit elit. Aliquip officia sit occaecat nulla ut. Ad nostrud anim elit id nulla et occaecat adipisicing id eu dolore ullamco est.
+
+- Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.

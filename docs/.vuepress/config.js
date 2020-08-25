@@ -1,6 +1,10 @@
 module.exports = {
+    plugins: ['@vuepress/back-to-top'],
     title: 'Charles Jeandey',
-    description: 'Web Dev mais pas que...',
+    description: 'Web Developper Laravel',
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         logo: '/img/psg.png',
         nav: [
@@ -22,7 +26,11 @@ module.exports = {
             ['/contact/', 'Contact'],
             ['/team/', 'Team']
         ],
+        '/': {
+            sidebar: 'auto'
+        },
         displayAllHeaders: true,
         smoothScroll: true,
+        search: false,
     }
 }
