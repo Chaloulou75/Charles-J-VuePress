@@ -1,12 +1,12 @@
 module.exports = {
-    plugins: ['@vuepress/back-to-top'],
+    plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
     title: 'Charles Jeandey',
     description: 'Web Developper Laravel',
     markdown: {
         lineNumbers: true
     },
     themeConfig: {
-        logo: '/img/psg.png',
+        logo: '/img/laravel-logo.svg',
         nav: [
             { text: 'Home', link: '/' },
             {
