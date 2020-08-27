@@ -1,7 +1,7 @@
 ---
 
 home: true
-heroImage: /img/laravel-logo.svg
+heroImage: /img/boc.jpg
 heroText: Charles Jeandey
 tagline: Developpeur Web PHP Laravel
 actionText: Contact Me →
@@ -192,25 +192,24 @@ class SearchUsers extends Component
 
 - Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
 
-## Static Site Generator (VuePress, Jigsaw, Nuxt...)
+## Static Site Generator (VuePress, Jigsaw, Nuxt, Gridsome...)
 
 <img width="40px" src="/img/vuepress.png" />
 
 ``` yaml
 ---
 home: true
-heroImage: /hero.png
-heroText: Hero Title
-tagline: Hero subtitle
-actionText: Get Started →
-actionLink: /guide/
+heroImage: /img/laravel-logo.svg
+heroText: Charles Jeandey
+tagline: Developpeur Web PHP Laravel
+actionText: Contact Me →
+actionLink: /contact/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+- title: Laravel
+  details: Laravel is a web application framework with expressive, elegant syntax.  
+   We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
+- title: VueJS
+  details: Vue est un framework évolutif pour construire des interfaces utilisateur.  À la différence des autres frameworks monolithiques, Vue a été conçu et pensé pour pouvoir être adopté de manière incrémentale.
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
@@ -245,7 +244,7 @@ Changes not staged for commit:
 
 - Laborum in ipsum excepteur enim duis cillum sunt nisi ipsum enim. Aliquip anim anim cupidatat veniam quis adipisicing labore veniam nulla enim esse exercitation qui. Laborum enim pariatur sit velit culpa irure non laboris minim dolore.
 
-## VS Code 
+## Visual Studio Code 
 
 <img width="40px" src="/img/visualstudio-logo.svg" />
 

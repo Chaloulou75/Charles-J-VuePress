@@ -30,6 +30,7 @@
 .counter{
     display: flex;
     align-content: center;
+    justify-content: center;
 }
 button{
     padding: 20px;

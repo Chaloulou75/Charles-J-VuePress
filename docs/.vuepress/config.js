@@ -1,5 +1,8 @@
 module.exports = {
     plugins: ['@vuepress/back-to-top','@vuepress/medium-zoom'],
+    head: [
+        ['link', { rel: 'icon', href: '/img/laravel-logo.svg' }]
+    ],
     title: 'Charles Jeandey',
     description: 'Web Developper Laravel',
     markdown: {
@@ -26,9 +29,6 @@ module.exports = {
             ['/contact/', 'Contact'],
             ['/team/', 'Team']
         ],
-        '/': {
-            sidebar: 'auto'
-        },
         displayAllHeaders: true,
         smoothScroll: true,
         search: false,
