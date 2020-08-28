@@ -1,7 +1,7 @@
 ---
 
 home: true
-heroImage: /img/boc.jpg
+heroImage: /img/browser.svg
 heroText: Charles Jeandey
 tagline: Developpeur Web PHP Laravel
 actionText: Contact Me →
