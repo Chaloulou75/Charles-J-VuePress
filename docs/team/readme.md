@@ -1,7 +1,5 @@
 ## Patrick
 
-I work usually alone
-
 Incididunt sit sint id exercitation ex consequat. Ex occaecat labore eiusmod anim consectetur enim fugiat laboris. Eiusmod sunt nulla occaecat pariatur fugiat. Amet ipsum eu ad velit laborum adipisicing aliquip officia tempor.
 
 Tempor culpa aliqua dolore nulla et non consectetur aliqua veniam. Ea aliquip duis sunt commodo. Mollit cillum aliquip adipisicing incididunt cillum aute. Consectetur non exercitation consequat voluptate. Non incididunt laborum cupidatat irure laboris quis. Non ex dolor ad ex excepteur duis veniam exercitation.
@@ -21,8 +19,6 @@ Id incididunt incididunt occaecat tempor id. Amet Lorem commodo reprehenderit ve
 Proident aute labore pariatur ipsum dolor deserunt cupidatat tempor consequat minim in deserunt do cupidatat. Occaecat consequat exercitation qui tempor culpa enim in nostrud. Voluptate non magna cillum veniam. Incididunt aliquip reprehenderit pariatur laborum ex aute ut enim fugiat esse voluptate. Officia ex aliquip reprehenderit tempor exercitation aliqua eiusmod occaecat consectetur velit pariatur nulla sit.
 
 ## Bob
-
-I work usually alone
 
 Incididunt sit sint id exercitation ex consequat. Ex occaecat labore eiusmod anim consectetur enim fugiat laboris. Eiusmod sunt nulla occaecat pariatur fugiat. Amet ipsum eu ad velit laborum adipisicing aliquip officia tempor.
 

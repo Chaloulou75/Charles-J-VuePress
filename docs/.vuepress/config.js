@@ -3,7 +3,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/img/laravel-logo.svg' }]
     ],
-    title: 'Charles Jeandey',
+    title: 'Carpinto | Sites ',
     description: 'Web Developper Laravel',
     markdown: {
         lineNumbers: true
@@ -17,19 +17,20 @@ module.exports = {
                 ariaLabel: 'website réalisés',
                 items: [
                   { text: 'Apuestamigo.com', link: 'https://www.apuestamigo.com/' },
-                  { text: 'julienlepretre.com', link: 'https://www.julienlepretre.com/' }
+                  { text: 'julienlepretre.com', link: 'https://www.julienlepretre.com/' },
+                  { text: 'Charles Jeandey', link: 'https://charles-jeandey.netlify.app/' }
                 ]
             },        
             { text: 'Contact', link: '/contact/' },
             { text: 'Team', link: '/team/' },
-            { text: 'Github', link: 'https://www.github.com/Chaloulou75/' },
+            { text: 'Mon Github', link: 'https://www.github.com/Chaloulou75/' },
         ],
         sidebar: [
             ['/', 'Home'],
             ['/contact/', 'Contact'],
             ['/team/', 'Team']
         ],
-        displayAllHeaders: true,
+        displayAllHeaders: false,
         smoothScroll: true,
         search: false,
     }
